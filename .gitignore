@@ -1,0 +1,16 @@
+# Arquivos de estado locais do Terraform/OpenTofu
+*.tfstate
+*.tfstate.backup
+
+# Arquivos de log de crash
+crash.log
+
+# Pasta .terraform que contém os plugins baixados
+.terraform/
+
+# Arquivos .tfvars que podem conter segredos
+*.tfvars
+*.tfvars.json
+
+# Chaves privadas geradas localmente
+*.pem
